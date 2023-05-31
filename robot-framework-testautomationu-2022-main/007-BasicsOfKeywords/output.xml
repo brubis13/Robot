@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.3 on darwin)" generated="20230531 10:41:39.932" rpa="false" schemaversion="3">
+<suite id="s1" name="Keyword-Basics.Answer" source="/Users/brunaneves/Downloads/Robot/robot-framework-testautomationu-2022-main/007-BasicsOfKeywords/keyword-basics.answer.robot">
+<test id="s1-t1" name="Check invoice manager page" line="5">
+<kw name="Comment" library="BuiltIn">
+<arg>We've learned how to create a custom keyword!</arg>
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<status status="PASS" starttime="20230531 10:41:40.474" endtime="20230531 10:41:40.474"/>
+</kw>
+<kw name="Navigate To Home Page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://inv.beaufortfairmont.com</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230531 10:41:40.475" level="INFO">Opening browser 'chrome' to base url 'http://inv.beaufortfairmont.com'.</msg>
+<status status="PASS" starttime="20230531 10:41:40.475" endtime="20230531 10:41:47.131"/>
+</kw>
+<status status="PASS" starttime="20230531 10:41:40.474" endtime="20230531 10:41:47.131"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>Invoice Manager</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20230531 10:41:47.213" level="INFO">Current page contains text 'Invoice Manager'.</msg>
+<status status="PASS" starttime="20230531 10:41:47.131" endtime="20230531 10:41:47.213"/>
+</kw>
+<status status="PASS" starttime="20230531 10:41:40.474" endtime="20230531 10:41:47.214"/>
+</test>
+<status status="PASS" starttime="20230531 10:41:39.946" endtime="20230531 10:41:47.215"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Keyword-Basics.Answer">Keyword-Basics.Answer</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

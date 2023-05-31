@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.3 on darwin)" generated="20230531 11:00:23.696" rpa="false" schemaversion="3">
+<suite id="s1" name="First-Test-Case.Answer" source="/Users/brunaneves/Downloads/Robot/robot-framework-testautomationu-2022-main/005-TestCases/first-test-case.answer.robot">
+<test id="s1-t1" name="Check invoice manager page" line="5">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://inv.beaufortfairmont.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230531 11:00:24.200" level="INFO">Opening browser 'chrome' to base url 'http://inv.beaufortfairmont.com/'.</msg>
+<status status="PASS" starttime="20230531 11:00:24.200" endtime="20230531 11:00:29.562"/>
+</kw>
+<kw name="Comment" library="BuiltIn">
+<arg>Checking that we're on the invoice manager page</arg>
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<status status="PASS" starttime="20230531 11:00:29.563" endtime="20230531 11:00:29.563"/>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<arg>Invoice Manager</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<msg timestamp="20230531 11:00:29.598" level="INFO">Current page contains text 'Invoice Manager'.</msg>
+<status status="PASS" starttime="20230531 11:00:29.564" endtime="20230531 11:00:29.598"/>
+</kw>
+<status status="PASS" starttime="20230531 11:00:24.199" endtime="20230531 11:00:29.599"/>
+</test>
+<status status="PASS" starttime="20230531 11:00:23.699" endtime="20230531 11:00:29.599"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="First-Test-Case.Answer">First-Test-Case.Answer</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
